@@ -1,0 +1,24 @@
+# Input text file path
+queries.txt
+
+# Output/ScanReports/ProductionScans
+run_IRSMD.sh
+
+# Combined CSV path 
+csvMerger.py
+
+# html and pdf paths
+csvtoPDF_RE.py
+
+# Email Attachment path
+EmailSender.py
+
+
+Dependencies:
+
+python3
+cygwin64
+#wkhtmltopdf.exe
+3pdfkit
+fpdf2
+csv2pdf (techsavvy)
